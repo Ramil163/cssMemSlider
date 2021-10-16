@@ -1,9 +1,16 @@
+
+
+
 .wrapper {
 
 }
 .container {
-max-width: 800px ;
+max-width: 930px ;
+min-height: 700px;
 margin: 0 auto;
+background-color: rgb(51, 51, 51);
+padding-top: 30px;
+
 }
 
 
@@ -14,6 +21,8 @@ border: 1px solid black;
 border-radius: 2%;
 background-color: transparent;
 overflow: hidden;
+margin: 0 auto;
+margin-bottom: 20px;
 
 }
 
@@ -61,21 +70,70 @@ max-height: 100%;
 
 
 .bullets {
+display: flex;
+/* padding-right: 30px; */
 
 }
 .title {
+/* margin-left: 30px; */
+color: white;
+font-family: Noto Sans Mono;
+font-weight: 500;
+letter-spacing: 0.25vh;
+line-height: 5%;
+display: block;
+transform: scale(1);
+transition:1s ease-out;
+   color: rgb(255, 117, 37);
+   transition-delay: 1s;
+/* transform: (2); */
 
 }
+.rotate{
+   transform: scale(1.3);
+transition:1s ease-out;
+   color: rgb(160, 119, 201);
+   transition-delay: 1s;
+}
+
+.title-body{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 800px ;
+   margin: 0 auto;
+}
 .button1{
-width: 50px;
-height: 50px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+cursor: pointer;
+margin-right: 15px;
+/* margin-top: 15px; */
 }
 .button2{
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+margin-right: 15px;
+/* margin-top: 15px; */
 
 }
 .button3{
-   
+   width: 15px;
+height: 15px;
+border-radius: 50%;
+cursor: pointer;
+margin-right: 15px;
+/* margin-top: 15px; */
+
 }
 .button4{
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+/* margin-top: 15px; */
 
 }
