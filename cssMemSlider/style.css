@@ -2,28 +2,80 @@
 
 }
 .container {
-max-width: ;
+max-width: 800px ;
+margin: 0 auto;
 }
+
+
 .slider-view {
-min-width: 300px ;
-min-height: 200px;
+max-width: 800px ;
+max-height: 600px;
 border: 1px solid black;
-border-radius: 10%;
-background-color: white;
-}
-.slider-container {
-width: 1000px;
-height: 200px;
+border-radius: 2%;
+background-color: transparent;
 overflow: hidden;
 
 }
+
+
+.slider-container {
+width: 3200px;
+height: 600px;
+/* overflow: hidden; */
+display: flex;
+position: relative;
+transition: left 1s ease-out;
+}
+
+
+.slide{
+   width: 800px;
+   height: 600px;
+}
+
+
+.slide1{
+background: url('boromir.jpg') no-repeat center / cover;
+max-width: 100%;
+max-height: 100%;
+}
+
+
+.slide2{
+   background: url('douny.jpg') no-repeat center / cover;
+
+}
+
+
+.slide3{
+   background: url('enot.jpg') no-repeat center / cover;
+
+}
+
+
+.slide4{
+   background: url('tom_cruze.png') no-repeat center / cover;
+
+}
+
+
+
 .bullets {
 
 }
 .title {
 
 }
-.button1{}
-.button2{}
-.button3{}
-.button4{}
+.button1{
+width: 50px;
+height: 50px;
+}
+.button2{
+
+}
+.button3{
+   
+}
+.button4{
+
+}
