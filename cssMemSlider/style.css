@@ -1,0 +1,29 @@
+.wrapper {
+
+}
+.container {
+max-width: ;
+}
+.slider-view {
+min-width: 300px ;
+min-height: 200px;
+border: 1px solid black;
+border-radius: 10%;
+background-color: white;
+}
+.slider-container {
+width: 1000px;
+height: 200px;
+overflow: hidden;
+
+}
+.bullets {
+
+}
+.title {
+
+}
+.button1{}
+.button2{}
+.button3{}
+.button4{}
