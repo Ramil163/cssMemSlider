@@ -172,3 +172,201 @@ margin:8px;
    background-color: rgb(46, 43, 43);
 border: 1px solid rgb(89, 134, 207);
 }
+
+/* ========================================================================================== */
+
+@media (max-width: 400px){
+   .container {
+      max-width: 310px ;
+      max-height: 300px;
+      margin: 0 auto;
+      background-color: rgb(51, 51, 51);
+      padding-top: 0px;
+      
+      }
+      .slider-view {
+         max-width: 310px ;
+         max-height: 300px;
+         border: 1px solid black;
+         border-radius: 5%;
+         margin-bottom: 10px;
+         
+         }
+         
+         
+         .slider-container {
+         width: 1240px;
+         height: 300px;
+         /* overflow: hidden; */
+         display: flex;
+         position: relative;
+         transition: left 1s ease-out;
+         }
+         
+         
+         .slide{
+            width: 310px;
+            height: 300px;
+         }
+         .slide1{
+            background: url('boromir.jpg') no-repeat center / cover;
+            /* max-width: 100%; */
+            /* max-height: 100%; */
+            }
+            
+            
+            .slide2{
+               background: url('douny.jpg') no-repeat center / cover;
+            
+            }
+            
+            
+            .slide3{
+               background: url('enot.jpg') no-repeat center / cover;
+            
+            }
+            
+            
+            .slide4{
+               background: url('tom_cruze.png') no-repeat center / cover;
+            
+            }
+            
+            
+            
+            .bullets {
+            display: flex;
+            min-height: 40px;
+            min-width: 120px;
+            align-items: center;
+            justify-content: space-between;
+            /* padding-right: 30px; */
+            
+            }
+            .title {
+            /* margin-left: 30px; */
+            /* color: white; */
+            font-family: Noto Sans Mono;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 0.15vh;
+            line-height: 1%;
+            display:flex;
+            min-height: 50px;
+            flex-wrap: wrap;
+            /* flex-wrap: wrap; */
+            transform: scale(0.8);
+            transition:0.7s ease-out;
+               color: rgb(255, 117, 37);
+               transition-delay: 0.7s;
+               margin-top: 20px;
+               padding:0 5px;
+               /* text-overflow: ; */
+            /* transform: (2); */
+            
+            }
+            .rotate{
+               transform: scale(0.9);
+            transition:1s ease-out;
+            transform: scaleY(1.2);
+               color: rgb(160, 119, 201);
+               transition-delay: 1s;
+            }
+            /* .title { */
+               /* margin-left: 30px; */
+               /* color: white; */
+               /* font-family: Noto Sans Mono; */
+               /* font-weight: 500; */
+               /* letter-spacing: 0.25vh; */
+               /* line-height: 5%; */
+               /* display: block; */
+               /* transform: scale(1); */
+               /* transition:1s ease-out; */
+                  /* color: rgb(255, 117, 37); */
+                  /* transition-delay: 1s; */
+               /* transform: (2); */
+               
+               /* } */
+               /* .rotate{
+                  transform: scale(1.25);
+               transition:1s ease-out;
+                  color: rgb(160, 119, 201);
+                  transition-delay: 1s;
+               } */
+
+            .title-body{
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               /* max-width: 800px ; */
+               margin: 0 auto;
+               flex-direction: column-reverse;
+               /* flex-wrap: wrap; */
+            }
+            .button1{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            margin:8px; 
+            
+            /* margin-right: 15px; */
+            background-color: rgb(89, 134, 207);
+            
+            
+            /* margin-top: 15px; */
+            }
+            .but1{cursor: pointer;}
+            .but2{cursor: pointer;}
+            .but3{cursor: pointer;}
+            .but4{cursor: pointer;}
+            
+            
+            .button2{
+               width: 15px;
+               height: 15px;
+               border-radius: 50%;
+               cursor: pointer;
+            margin:8px; 
+            background-color: rgb(89, 134, 207);
+            
+            /* margin-top: 15px; */
+            
+            }
+            .button3{
+               width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            margin:8px; 
+            
+            /* margin-right: 15px; */
+            background-color: rgb(89, 134, 207);
+            
+            /* margin-top: 15px; */
+            
+            }
+            .button4{
+               width: 15px;
+               height: 15px;
+               border-radius: 50%;
+               cursor: pointer;
+            margin:8px; 
+            
+               background-color: rgb(89, 134, 207);
+            /* margin-top: 15px; */
+            
+            }
+            .mouseenter{
+               background-color: rgb(199, 199, 199);
+            }
+            /* .mouseleave{
+               background-color: rgb(89, 134, 207);
+            
+            } */
+            .pressed{
+               background-color: rgb(46, 43, 43);
+            border: 1px solid rgb(89, 134, 207);
+            }
+            
+}
